@@ -1,0 +1,10 @@
+version: "3.2"
+services:
+  open-interpreter:
+    build: .
+    container_name: open-interpreter
+    tty: true
+    volumes:
+      - ./app:/root
+    environment:
+      - DISPLAY=host.docker.internal:0.0

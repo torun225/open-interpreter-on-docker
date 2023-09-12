@@ -1,0 +1,9 @@
+.vscode-server
+.gnupg
+.gitconfig
+.bash_history
+.pki
+.local
+.config
+.cache
+.python_history
